@@ -15,7 +15,7 @@ if (dayToRun == 1)
 {
     Day01 day01 = new Day01(dir);
     stopwatch.Start();
-    day01.Run();
+    day01.Run(2);
     stopwatch.Stop();
 }
 

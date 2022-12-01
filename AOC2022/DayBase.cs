@@ -11,14 +11,21 @@ internal abstract class DayBase
         this.assetsDirectory = assetsDirectory ?? Environment.CurrentDirectory;
     }
 
-    public virtual void Run()
+    public virtual void Run(int part)
     {
         Console.WriteLine("Start task");
-        ExecuteTask();
+        if (part == 1)
+            ExecuteTask1();
+        else
+            ExecuteTask2();
         Console.WriteLine("Finished task");
     }
 
-    public virtual void ExecuteTask()
+    public virtual void ExecuteTask1()
+    {
+    }
+
+    public virtual void ExecuteTask2()
     {
     }
 }
