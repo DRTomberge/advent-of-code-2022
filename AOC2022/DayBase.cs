@@ -18,7 +18,7 @@ internal abstract class DayBase
             ExecuteTask1();
         else
             ExecuteTask2();
-        Console.WriteLine("Finished task");
+        Console.WriteLine(Environment.NewLine + "Finished task");
     }
 
     public virtual void ExecuteTask1()
