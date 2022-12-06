@@ -4,7 +4,7 @@ using System.IO;
 using AOC2022;
 
 //Assets directory
-int dayToRun = 6;
+int dayToRun = 7;
 string dir = Path.Combine(Environment.CurrentDirectory, "assets");
 Console.WriteLine($"Started for day {dayToRun}; Asset dir: {dir}");
 
