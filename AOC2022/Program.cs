@@ -17,7 +17,7 @@ DayBase? day = Activator.CreateInstance(Type.GetType(typeName), new object[] { d
 if (day != null)
 {
     stopwatch.Start();
-    day.Run(1);
+    day.Run(2);
     stopwatch.Stop();
 }
 
